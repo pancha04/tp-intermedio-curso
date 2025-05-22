@@ -12,8 +12,7 @@
 </head>
 
 <body>
-    <main>
-        <header class="header">
+            <header class="header">
                 <div class="header-nav__logo">
                         <img src="./imagenes/logo.png" alt="">
                     
@@ -28,17 +27,22 @@
                             <a href="">Horizons</a>
                         </nav>
                     </div>
-                    <div class="header-nav__right">
-                        <div>
-                            <button>español</button>
-                        </div>
+                    <div class="header__nav-right">
+                            <a href="#" class="header__nav-lang">
+                                <div>
+                                    <img src="./imagenes/bandera.png" alt="">
+                                </div>
+                                <span>Español</span>
+                            </a>
+                        
                         <div class="header-nav__login">
                             <a href="#">Ingresar</a>
                         </div>
                     </div>
-                        <button class="button-menu">menu</button>
                 </div>
+                <button class="button-menu"><i class="bi bi-list"></i></button>
         </header>
+    <main>
         <section class="hero">
             <div class="hero__content">
                 <div class="hero-left">
@@ -67,13 +71,13 @@
                         <span class="value">3.899</span>
                         <span class="text">/mes</span>
                     </span>
-                    <p class="hero-price-subtitle">+2 meses gratis</p>
+                    <p class="hero-price-subtitle">+3 meses gratis</p>
                     <div class="hero__buttons">
-                        <div>
-                            <a href="#" class="button-primary-left">Empezar ya</a>
+                        <div class="button-primary-left">
+                            <a href="#" >Empezar ya</a>
                         </div>
-                        <div>
-                            <a href="#" class="button-primary-right">12 : 20 : 07</a>
+                        <div class="button-primary-right">
+                            <a href="#" >12 : 20 : 07</a>
                         </div>
                     </div>
                         <span class="hero__buttons-subtitle"><i class="bi bi-shield-check"></i> Garantía de 30 días: probalo sin cargo</span>
@@ -131,7 +135,8 @@
             </div>
             <a href="#" class="button-secundary">Empezar</a>
         </section>
-        <footer>
+    </main>
+        <footer class="footer">
             <div class="footer__content">
                 <div class="footer__header">
                     <div class="footer__header-logo-left">
@@ -146,6 +151,11 @@
                     </div>
                 </div>
                 <div class="footer__container-line">
+                    <div class="footer__container-right">
+                        <a href="#">Política de privacidad</a>
+                        <a href="#">Política de reembolso</a>
+                        <a href="#">Términos de servicio</a>
+                    </div>
                     <div class="footer__container-left">
                         <div class="footer__card">
                             <img src="./imagenes/visa.avif" alt="">
@@ -169,13 +179,8 @@
                             <img src="./imagenes/cordobesa.avif" alt="">
                         </div>
                         <div class="footer__card footer__card-text">
-                            <span>y mas</span>
+                            <span>y más</span>
                         </div>
-                    </div>
-                    <div class="footer__container-right">
-                        <a href="#">Política de privacidad</a>
-                        <a href="#">Política de reembolso</a>
-                        <a href="#">Términos de servicio</a>
                     </div>
                 </div>
                 <div class="footer__container-bottom">
@@ -184,6 +189,5 @@
                 </div>
             </div>
         </footer>
-    </main>
 </body>
 </html>
